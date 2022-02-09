@@ -1,0 +1,37 @@
+.game-board {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 510px 150px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+/* for some css stylings */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+/* .Square-button {
+  background: 'lightblue';
+  border: '2px solid darkblue';
+  font-size: '30px';
+  font-weight: '1200';
+  cursor: 'pointer';
+  outline: 'none';
+}
+ */
+/* .container {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+ */
